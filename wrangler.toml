@@ -10,3 +10,7 @@ kv_namespaces = [
 
 [assets]
 directory = "./public"
+
+routes = [
+  { pattern = "sublink.ninesixplace.dpdns.org/*", zone_name = "ninesixplace.dpdns.org" }
+]
