@@ -8,9 +8,9 @@ kv_namespaces = [
   { binding = "SUBLINK_KV", id = "f41f7a01d44c494babb010b0c4821925" }
 ]
 
-[assets]
-directory = "./public"
-
 routes = [
   { pattern = "sublink.ninesixplace.dpdns.org/*", zone_name = "ninesixplace.dpdns.org" }
 ]
+
+[assets]
+directory = "./public"
